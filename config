@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/Sreevarsh-Mahesh/SimplyDecide
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "v2"]
+	remote = origin
+	merge = refs/heads/v2
+[branch "v3"]
+	vscode-merge-base = origin/v2
+	remote = origin
+	merge = refs/heads/v3
